@@ -112,14 +112,6 @@ Media queries ensure a smooth experience across different screen sizes.
 
 ---
 
-## ▶️ How to Run
-
-1. Download or clone this repository.
-2. Open the project folder.
-3. Double-click `index.html` or open it in your preferred web browser.
-4. Enjoy playing Rock Paper Scissors!
-
----
 
 ## 👩‍💻 Author
 
