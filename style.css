@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: #35477D;
+    color: aliceblue;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 50px;
+}
+
+
+
+.choice{
+     height: 165px;
+    width: 165px;
+    transition: all 0.3s ease;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+transition: all 0.3s ease;
+}
+
+.choices{
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+img:hover{
+    
+    transform: translateY(-10px);
+    border: 4px solid black;
+}
+.rock:hover {
+    background-color: #a8d5c4;
+}
+
+.paper:hover {
+    background-color: #ab93f3;
+}
+
+.scissors:hover {
+    background-color: #f6a37d;
+}
+
+.score_board{
+    display: flex;
+    justify-content: center;
+    
+    font-size: 2rem;
+    gap: 4rem;
+}
+
+
+.user_score,.comp_score{
+    font-size: 4rem;
+   justify-self: center;
+}
+
+.msg{
+    height: 4rem;
+    
+    
+    line-height: 4rem;
+    font-size: 3rem;
+    background-color: #F67280;
+    color: aliceblue;
+    border-radius: 10px;
+    display: inline;
+
+}
+.msg_box{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+@media (max-width: 768px){
+
+    h1{
+        font-size: 2.2rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .choices{
+        gap: 2rem;
+        margin: 3rem 1rem;
+    }
+
+    .choice{
+        width: 140px;
+        height: 140px;
+    }
+
+    img{
+        width: 125px;
+        height: 125px;
+    }
+
+    .score_board{
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .user_score,
+    .comp_score{
+        font-size: 3rem;
+    }
+
+    .msg{
+        font-size: 1.5rem;
+        padding: 0.7rem 1rem;
+    }
+}
+
+@media (max-width: 480px){
+
+    h1{
+        font-size: 1.8rem;
+        height: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .choices{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    .choice{
+        width: 120px;
+        height: 120px;
+    }
+
+    img{
+        width: 110px;
+        height: 110px;
+    }
+
+    .score_board{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .user_score,
+    .comp_score{
+        font-size: 2.5rem;
+    }
+
+    .msg{
+       height: 2rem;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .msg_box{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
