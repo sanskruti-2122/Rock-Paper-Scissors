@@ -165,9 +165,9 @@ img:hover{
     }
 
     .msg{
-       height: 2rem;
+       height: 3rem;
         font-size: 1rem;
-        line-height: 2rem;
+        line-height: 3rem;
     }
     .msg_box{
         margin-top: 1rem;
