@@ -10,7 +10,7 @@ A responsive **Rock Paper Scissors** game built using **HTML, CSS, and JavaScrip
 
 Example:
 
-![Rock Paper Scissors Game](images/screenshot.png)
+![Rock Paper Scissors Game]
 
 ---
 
@@ -96,11 +96,7 @@ Media queries ensure a smooth experience across different screen sizes.
 
 ### Home Screen
 
-_Add your screenshot here_
-
-```
-images/screenshot.png
-```
+(images/screenshot.png)
 
 ---
 
@@ -116,21 +112,12 @@ images/screenshot.png
 
 ---
 
-## ▶️ Getting Started
+## ▶️ How to Run
 
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/rock-paper-scissors.git
-```
-
-Navigate to the project folder:
-
-```bash
-cd rock-paper-scissors
-```
-
-Open `index.html` in your browser.
+1. Download or clone this repository.
+2. Open the project folder.
+3. Double-click `index.html` or open it in your preferred web browser.
+4. Enjoy playing Rock Paper Scissors!
 
 ---
 
@@ -138,7 +125,7 @@ Open `index.html` in your browser.
 
 **Sanskruti Shelar**
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/sanskruti-2122
 
 ---
 
