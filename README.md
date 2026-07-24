@@ -4,13 +4,12 @@ A responsive **Rock Paper Scissors** game built using **HTML, CSS, and JavaScrip
 
 ---
 
-## 📸 Preview
 
-> Add a screenshot of your project here after uploading it.
+## 📷 Screenshots
 
+### Home Screen
 
-
-
+![Rock Paper Scissors Game](images/screenshot.png)
 
 ---
 
@@ -92,13 +91,6 @@ Media queries ensure a smooth experience across different screen sizes.
 
 ---
 
-## 📷 Screenshots
-
-### Home Screen
-
-![Rock Paper Scissors Game](images/screenshot.png)
-
----
 
 ## 💡 Future Improvements
 
